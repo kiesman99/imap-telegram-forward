@@ -1,0 +1,10 @@
+services:
+  imap-telegram-forward:
+    image: imap-telegram-forward
+    build: .
+    environment:
+      - IMAP_SERVER_ADRESS=
+      - IMAP_USER=
+      - IMAP_PASSWORD=
+      - TELEGRAM_BOT_TOKEN=
+      - TELEGRAM_ID=
